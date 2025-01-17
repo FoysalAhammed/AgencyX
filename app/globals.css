@@ -19,3 +19,70 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.bg-pattern {
+  background-image: url(/hero-pattern.svg)
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom,var(--tw-gradient-stops))
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right,var(--tw-gradient-stops))
+}
+
+.bg-gradient-to-l {
+  background-image: linear-gradient(to left,var(--tw-gradient-stops))
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right,var(--tw-gradient-stops))
+}
+
+
+.bg-stripe-gradient {
+  background-image: linear-gradient(45deg,rgba(0,0,0,.1) 25%,transparent 0,transparent 50%,rgba(0,0,0,.1) 0,rgba(0,0,0,.1) 75%,transparent 0,transparent)
+}
+
+.text-gradient {
+  background: #8DDFED;
+  background: linear-gradient(to right, #8DDFED 0%, #6ADF93 97%, #20E278 75%, #00FF00 50%, #4AE07A 39%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none
+}
+
+.scrollbar-default {
+  -ms-overflow-style: auto;
+  scrollbar-width: auto
+}
+
+.scrollbar-default::-webkit-scrollbar {
+  display: block
+}
+
+.clr-blue{
+  background-color: hsl(212.01999999999998 100% 46.67%);
+}
+
