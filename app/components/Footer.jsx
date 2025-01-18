@@ -37,7 +37,7 @@ const Footer = () => {
             </h2>
             <div className="space-y-2 pt-3.5">
               <span className="block transition-all delay-150 hover:text-primary-500">
-                <a target="_self" href="/about">
+                <a target="_self" href="/">
                   <p className="text-xs sm:text-base">
                     <span className="block transition-all delay-150 hover:text-primary-500">
                       About

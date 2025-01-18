@@ -44,12 +44,7 @@ const Header = () => {
           <li className="text-medium whitespace-nowrap box-border list-none  flex relative h-full items-center  font-medium text-slate-300 transition-all delay-100 hover:text-primary-500 sm:text-lg lg:text-xl">
             <a color="foreground" href="/">Services</a>
           </li>
-          <li className="text-medium whitespace-nowrap box-border list-none  flex relative h-full items-center  font-medium text-slate-300 transition-all delay-100 hover:text-primary-500 sm:text-lg lg:text-xl">
-            <a color="foreground" href="/">Contact</a>
-          </li>
-          <li className="text-medium whitespace-nowrap box-border list-none  flex relative h-full items-center  font-medium text-slate-300 transition-all delay-100 hover:text-primary-500 sm:text-lg lg:text-xl">
-            <a color="foreground" href="/">FAQ</a>
-          </li>
+      
         </ul>
       </header>
     </nav>  )

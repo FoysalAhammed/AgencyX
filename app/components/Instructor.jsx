@@ -15,20 +15,16 @@ const Instructor = () => {
       </div>
       <div className=
       "grid max-w-screen-lg sm:mx-auto lg:grid-cols-2">
-        <div className="FounderImages grid grid-cols-2 gap-2">
-          
-           
+
                 <div className=
                 "relative shadow-black/5 shadow-none rounded-large max-w-fit "
                 ><Image width={450} height={400} src=
                 "/profile1.png" className=
-                "relative z-10  shadow-black/5  shadow-none   rounded-large FounderImg h-auto max-w-md object-cover md:max-w-sm"
-                alt=""/></div>
-              </div>
-           
-            
+                "relative z-10 w-full shadow-black/5  shadow-none   rounded-large FounderImg h-auto max-w-md object-cover md:max-w-sm"
+                alt=""/>
+                </div>
 
-          
+      
       
         <div className=
         "instructorDetailsBorder flex flex-col justify-center border-l-2 border-indigo-500 ps-[50px] text-white">
