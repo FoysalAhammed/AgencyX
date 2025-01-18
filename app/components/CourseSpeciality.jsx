@@ -106,7 +106,7 @@ const CourseSpeciality = () => {
             </p>
             <p className="mx-auto mb-2 max-w-xs text-gray-400">
               You Are Not Just Enrolling In One Course. It's A Mission To Learn
-              Lifelong Programming Journey With Hablu Programmer.
+              Lifelong Programming Journey With Mentorship of Foysal Ahammed.
             </p>
           </div>
           <div className="transform cursor-pointer rounded-[20px] border border-slate-500/50 bg-slate-800/50 px-5 py-10 text-center transition duration-200 ease-out hover:scale-x-110 hover:scale-y-105 lg:px-5 lg:py-5">
